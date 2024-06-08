@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>SkyCast</title>
+    <meta name="title" content="SkyCast" />
+    <meta name="description" content="SkyCast is a opensource web app for weather forcasting made by Naveen Kuhar" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo"><img src="./assets/images/logo.png" height="54px" width="184px" alt="logo" /></a>
+            <div class="search-view" data-search-view>
+                <div class="search-wrapper">
+                    <input type="search" name="search" placeholder="Search city..." autocomplete="off" data-search-field  class="search-field">
+                    <span class="m-icon">search</span>
+                <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler><span class="m-icon">arrow_back</span></button> 
+                </div>
+
+            </div>
+
+            <div class="search-result" >
+
+
+            </div>
+
+
+        </div>
+    </header>
+</body>
+<script src="./assets/js/app.js" type="module"></script>
+<script src="./assets/js/route.js" type="module"></script>
+
+</html>
